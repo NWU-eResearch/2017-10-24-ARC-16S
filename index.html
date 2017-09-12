@@ -6,7 +6,7 @@ venue: "North-West University"
 address: "Room 218, Building G23, 11 Hoffman Street, NWU, Potchefstroom"
 country:     # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language:     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "27.094667,-26.685560"
+latlng: "-26.685560,27.094667"
 humandate: "Oct 24-27, 2017"
 humantime: "8:00 am - 4:30 pm"
 startdate: 2017-10-24
@@ -154,6 +154,17 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 
 <!--
+  REGISTRATION
+ 
+  Provide link where participants need to register.
+-->
+
+<p id="registration">
+  <strong>Registration</strong>:
+  Please complete the <a href="https://goo.gl/forms/IpKBqIc32bWnZ7473">online registration form</a>.
+</p>
+
+<!--
   CONTACT EMAIL ADDRESS
 
   Display the contact email address set in the configuration file.
@@ -246,7 +257,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   This is one of the places where people frequently make mistakes, so
   please preview your site before committing, and make sure to run
   'tools/check' as well.
--->
+
 <h2 id="syllabus">Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
@@ -258,6 +269,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 <hr/>
+-->
 
 <!--
   SETUP
